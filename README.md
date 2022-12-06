@@ -1,5 +1,7 @@
-### C Information  
-  
+# <p align="center"> C Information </p>
+
+<img src="https://github.com/colo1701/holodeck/blob/main/images/c_logo.png" alt="I should be an image... =(">
+
 #### Data Types  
 Type | Size | Min Value | Max Value  
 --- | --- | --- | --- 
