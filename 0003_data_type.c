@@ -8,6 +8,9 @@ int main() {
   
   int doerte = franzjosef + hans;
   
+  /*
+  asd
+  */
   printf("franzjosef + hans = %d\n", doerte);
   
   return 0;
