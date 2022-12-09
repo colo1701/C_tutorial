@@ -15,6 +15,7 @@ int main() {
     programming languages, C often simply executes code instead of rejecting less meaningful statements 
     with easy-to-understand error messages.
     */
+    
     printf("%f\n", inge);
     return 0; 
 }
