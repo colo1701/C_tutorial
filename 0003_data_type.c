@@ -22,6 +22,5 @@ int main() {
   */
   printf("franzjosef + hans = %d\n", doerte);
   
-  return 0;
-  
+  return 0; 
 }
