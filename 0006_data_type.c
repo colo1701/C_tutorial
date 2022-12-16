@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    float franzjosef = 2.8;
-    int hans = 1337;
+    float a = 2.8;
+    int b = 1337;
   
-    float abc = franzjosef + hans;
+    float c = a + b;
   
     /* 
     In this case the sum of an integer and a float is built and stored as a float again.
@@ -13,12 +13,12 @@ int main() {
     double decribes a float with a size of 8 Bytes which comes up with a higher accuracy.
     */
     
-    double franzjosef8 = 2.8;
-    int hans8 = 1337;
+    double a8 = 2.8;
+    int b8 = 1337;
     
-    double abc8 = franzjosef8 + hans8;
+    double c8 = a8 + b8;
     
-    printf("The float value: %f\n", abc);
-    printf("The double value: %f\n", abc8);
+    printf("The float value: %f\n", c);
+    printf("The double value: %f\n", c8);
     return 0; 
 }
