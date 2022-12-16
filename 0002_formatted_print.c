@@ -3,15 +3,15 @@
 int main() {
     // Define Integer variables (size 4 Bytes)
     
-    int franzjosef = 42;
-    int hans;
-    hans = 1337;
+    int a = 42;
+    int b;
+    b = 1337;
   
-    int doerte = franzjosef + hans;
+    int c = a + b;
   
     // %d returns Integer value
     
-    printf("%d", doerte);
+    printf("%d", c);
   
     return 0;
 }
