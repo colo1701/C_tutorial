@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char abc = 'c';
+    char a = 'c';
     
     /*
     %c returns a char output. But every char is also equal to a number, which can be seen
@@ -11,12 +11,12 @@ int main() {
     but a senseless result so one should always be careful handling with those things.
     */
   
-    int hans = 1337;
-    int jupp = abc + hans;
+    int b = 1337;
+    int c = a + b;
     
-    printf("I'm a char: %c\n", abc);
-    printf("I'm the respective integer: %d\n", abc);
-    printf("I'm the integer sum of 1337 and the letter c: %d\n", jupp);
-    printf("I'm the char sum of 1337 and the letter c: %c\n", jupp);
+    printf("I'm a char: %c\n", a);
+    printf("I'm the respective integer: %d\n", a);
+    printf("I'm the integer sum of 1337 and the letter c: %d\n", c);
+    printf("I'm the char sum of 1337 and the letter c: %c\n", c);
     return 0; 
 }
