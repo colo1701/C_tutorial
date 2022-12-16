@@ -2,10 +2,10 @@
 
 int main() {
     // Defining a float variable (size is 4 Bytes as well as the integer's size)
-    float franzjosef = 2.3;
-    float hans = 4.5;
+    float a = 2.3;
+    float b = 4.5;
   
-    float inge = franzjosef + hans;
+    float c = a + b;
   
     /* 
     %f calls a float value as output.
@@ -16,6 +16,6 @@ int main() {
     with easy-to-understand error messages.
     */
     
-    printf("%f\n", inge);
+    printf("%f\n", c);
     return 0; 
 }
