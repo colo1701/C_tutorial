@@ -1,10 +1,10 @@
-# <p align="center"> C Information </p>
+# <p align="center"> C Cheat Sheet </p>
 
 <p align="center">
 <img src="https://github.com/colo1701/holodeck/blob/main/images/c_logo.png" width="200" alt="I should be an image... =( ">
 </p>
 
-#### Data Types  
+### Data Types  
 Type | Size | Min Value | Max Value  
 --- | --- | --- | --- 
 char | 1 byte | -128 | 127  
@@ -17,4 +17,8 @@ unsigned short | 2 bytes | 0 | 65,535
 long | 8 bytes | -9,223,372,036,854,775,808 | 9,223,372,036,854,775,807
 unsigned long | 8 bytes | 0 | 18,446,744,073,709,551,615
 
-### loop types
+### Loop Types
+
+##### For Loop
+##### While Loop
+##### Do While Loop
