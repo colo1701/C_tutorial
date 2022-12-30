@@ -19,9 +19,9 @@ unsigned long | 8 bytes | 0 | 18,446,744,073,709,551,615
 
 ### Loop Types
 
-##### For Loop  
+#### For Loop  
 tbd  
-##### While Loop  
+#### While Loop  
 tbd  
-##### Do While Loop  
+#### Do While Loop  
 tbd
