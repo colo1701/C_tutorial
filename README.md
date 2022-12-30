@@ -16,3 +16,5 @@ short | 2 bytes | -32,768 | 32,767
 unsigned short | 2 bytes | 0 | 65,535
 long | 8 bytes | -9,223,372,036,854,775,808 | 9,223,372,036,854,775,807
 unsigned long | 8 bytes | 0 | 18,446,744,073,709,551,615
+
+### loop types
