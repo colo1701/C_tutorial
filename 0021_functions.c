@@ -1,26 +1,28 @@
 #include <stdio.h>
 
-/*
-So far, we have always written the code that should be executed. This code was in the 
-structure 'int main() {}'.
-*/
-
 int main() {
-    func();
+    func1();
     printf("main\n");
 
     return 0;
 }
 
 /*
-The background is that the code that is primarily executed is always in the 'main' function. 
-Beside the 'main' function there can be other functions, like 'func'. The commands that are 
-executed in 'func' can be integrated into the program in 'main' by calling 'func()'. For 
-simplicity, all functions are first defined with 'int' and terminated with 'return 0'.
+Functions can be nested in a complex way. In the following, for example, a function 
+'func2' is called within 'func1'. In the same way 'func1' and 'printf' are called in 
+'main', because 'printf' is also a function in c, but it does not have to be defined 
+explicitly anymore.
 */
 
-int func() {
-    printf("function\n");
+int func1() {
+    printf("function 1\n");
+    func2();
+    
+    return 0;
+}
 
+int func2() {
+    printf("function 2\n");
+    
     return 0;
 }
