@@ -24,6 +24,6 @@ int main() {
 }
 
 /*
-Now you know everything to try exercises 0001 & 0002 in the respective 
+Now you know everything to try exercises 0001, 0002 & 0003 in the respective 
 repository.
 */
