@@ -22,3 +22,7 @@ int main() {
   
     return 0;
 }
+
+/*
+Now you know everything to try exercise 0001 in the respective repository.
+*/
