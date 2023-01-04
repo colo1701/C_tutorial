@@ -1,23 +1,39 @@
 #include <stdio.h>
 
-int wild_computation(int x, int y) {
-    int res = x + y;
-    return res;
+int maximum(int x, int y) {
+    if(x > y) {
+        return x;
+    }
+    else {
+        return y;
+    }
+}
+
+int minimum(int x, int y) {
+    if(x < y) {
+        return x;
+    }
+    else {
+        return y;
+    }
 }
 
 /*
-
+With parameters in functions you can for example calculate things like the 
+maximum or minimum. Here, first of all, for two values.
 */
 
 int main() {
-    int a = 42;
-    int b = 1337;
-  
-    int output = wild_computation(42, 1337);
-    int var_output = wild_computation(a, b);
-  
-    printf("The result of the function with direct values is %d.\n", output);
-    printf("The result of the function with variable values is %d.\n", 
-           var_output);
+    int a = 7;
+    int b = 3;
+    int c = 4;
+    int d = 5;
+    
+    int min_ab = minimum(a, b);
+    int max_cd = maximum(c, d);
+    
+    printf("The minimum of a and b is %d.\n", min_ab);
+    printf("The maximum of c and d is %d.\n", max_cd);
+    
     return 0;
 }
