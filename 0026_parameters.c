@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /*
-
 Parameters are values that are used when calling a function. This allows 
 functions to be used for different values when the same operations are always to 
 be performed. Strictly speaking, this is also the main purpose of functions.
