@@ -22,8 +22,3 @@ int main() {
   
     return 0;
 }
-
-/*
-Now you know everything to try exercises 0001, 0002 & 0003 in the respective 
-repository.
-*/
