@@ -7,12 +7,12 @@ int main() {
         printf("a is %d.\n", a);
         a++;
     } while(a < 10);
-  
+
     /*
     The do while loop works at first sight like the while loop.
-    The difference is that if the variable defined in advance does not satisfy the condition 
-    of the do while loop, the commands are still executed once. The condition is therefore 
-    only checked after the first run.
+    The difference is that if the variable defined in advance does not satisfy 
+    the condition of the do while loop, the commands are still executed once. 
+    The condition is therefore only checked after the first run.
     */
 
     int b = 120;
