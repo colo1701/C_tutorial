@@ -8,10 +8,10 @@ int main() {
 }
 
 /*
-Functions can be nested in a complex way. In the following, for example, a function 
-'func2' is called within 'func1'. In the same way 'func1' and 'printf' are called in 
-'main', because 'printf' is also a function in c, but it does not have to be defined 
-explicitly anymore.
+Functions can be nested in a complex way. In the following, for example, a 
+function 'func2' is called within 'func1'. In the same way 'func1' and 'printf' 
+are called in 'main', because 'printf' is also a function in c, but it does not 
+have to be defined explicitly anymore.
 */
 
 int func1() {
