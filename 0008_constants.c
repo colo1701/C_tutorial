@@ -10,9 +10,11 @@ int main() {
   
     const double PI = 3.14159;
     float radius = 3.5;
-    
+ 
     printf("This is Pi: %f\n", PI);
-    printf("This is the area of a circle with radius %f: %f\n", radius, radius*radius*PI);
+    printf("This is the area of a circle with radius %f: %f\n", 
+           radius, 
+           radius*radius*PI);
       
     return 0; 
 }
