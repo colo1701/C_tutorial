@@ -10,8 +10,8 @@ int main() {
 
 /*
 Functions can also be called several times like in 'func1'.
-If we run 'main' it first calls 'func1' which prints it's own text and afterwards calls 
-'func2' three times, which prints the text of 'func2'.
+If we run 'main' it first calls 'func1' which prints it's own text and 
+afterwards calls 'func2' three times, which prints the text of 'func2'.
 This happens a second time before 'main' prints the last string.
 */
 
