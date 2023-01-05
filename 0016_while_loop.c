@@ -3,11 +3,12 @@
 int main() {
     int a = 4;
     int b = -3;
-    
+
     /*
     It is also possible to perform other indented operations within the loop.
-    In this script the first loop stops after the first process of the outer loop as 'b' is not set back to -3.
-    The second loop shows the difference where the iteration generates an output for all upcoming values of 'a.
+    In this script the first loop stops after the first process of the outer 
+    loop as 'b' is not set back to -3. The second loop shows the difference 
+    where the iteration generates an output for all upcoming values of 'a.
     */
   
     while(a <= 20) {
