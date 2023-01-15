@@ -8,7 +8,6 @@ length 'l' that is output should have the form
     
 This is done by the printArray() function. The function takes the name and 
 length of the array and prints its elements in order in the desired form.
-################################################################################
 The length is important for processing because we wrote the function for an 
 array with a variable length. This can be recognized by the fact that the 
 parameter 'arr[]' is written with an empty bracket. If the function is to accept 
